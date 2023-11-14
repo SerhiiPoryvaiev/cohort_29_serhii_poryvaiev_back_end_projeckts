@@ -18,4 +18,8 @@ public class City {
     @Column(name = "city_id")
     private Integer id;
     private String name;
+
+    public City(String name) {
+        this.name = name;
+    }
 }
